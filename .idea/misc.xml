@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SOFT/AndroidStudioProjects/kotlin/SimplePaintApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23743589743589744" />
+        <entry key="..\:/Users/SOFT/AndroidStudioProjects/kotlin/SimplePaintApp/app/src/main/res/drawable-v24/items_view_bg_black.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/SOFT/AndroidStudioProjects/kotlin/SimplePaintApp/app/src/main/res/drawable-v24/items_view_bg_blue.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/SOFT/AndroidStudioProjects/kotlin/SimplePaintApp/app/src/main/res/drawable-v24/items_view_bg_dark.xml" value="0.22685185185185186" />
+        <entry key="..\:/Users/SOFT/AndroidStudioProjects/kotlin/SimplePaintApp/app/src/main/res/drawable-v24/items_view_bg_greem.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/SOFT/AndroidStudioProjects/kotlin/SimplePaintApp/app/src/main/res/drawable-v24/items_view_bg_red.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/SOFT/AndroidStudioProjects/kotlin/SimplePaintApp/app/src/main/res/drawable-v24/items_view_bg_yellow.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/SOFT/AndroidStudioProjects/kotlin/SimplePaintApp/app/src/main/res/drawable/ic_pencil.xml" value="0.1265625" />
+        <entry key="..\:/Users/SOFT/AndroidStudioProjects/kotlin/SimplePaintApp/app/src/main/res/drawable/items_view_bg.xml" value="0.22685185185185186" />
+        <entry key="..\:/Users/SOFT/AndroidStudioProjects/kotlin/SimplePaintApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/SOFT/AndroidStudioProjects/kotlin/SimplePaintApp/app/src/main/res/layout/paint_view.xml" value="0.1094224924012158" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

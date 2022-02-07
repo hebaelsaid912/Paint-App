@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:id="@+id/mainView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" >
+            <include layout="@layout/paint_view"/>
+        </LinearLayout>
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:id="@+id/toggle_btn_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="40dp"
+                app:singleSelection="true"
+                android:defaultFocusHighlightEnabled="true"
+                android:focusedByDefault="true"
+                android:padding="5dp"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/pencil_btn"
+                    style="@style/Toggle_buttons_with_icon_Only"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    app:icon="@drawable/pencil"
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/arrow_btn"
+                    style="@style/Toggle_buttons_with_icon_Only"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    app:icon="@drawable/arrow" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/rectangle_btn"
+                    style="@style/Toggle_buttons_with_icon_Only"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    app:icon="@drawable/rectangle" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/ellipse_btn"
+                    style="@style/Toggle_buttons_with_icon_Only"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    app:icon="@drawable/ellipse" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/color_palette_btn"
+                    style="@style/Toggle_buttons_with_icon_Only"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    app:icon="@drawable/carbon_color_palette" />
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/toggle_color_btn_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="20dp"
+            app:singleSelection="true"
+            android:visibility="gone"
+            android:defaultFocusHighlightEnabled="true"
+            android:focusedByDefault="true"
+            android:padding="5dp"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toggle_btn_group">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/red_btn"
+                style="@style/Toggle_buttons_red"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/green_btn"
+                style="@style/Toggle_buttons_green"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/yellow_btn"
+                style="@style/Toggle_buttons_yellow"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/blue_btn"
+                style="@style/Toggle_buttons_blue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/black_btn"
+                style="@style/Toggle_buttons_black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical" />
+
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
